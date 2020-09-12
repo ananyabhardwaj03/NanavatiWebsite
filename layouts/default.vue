@@ -12,6 +12,7 @@
     <!-- Body -->
     <v-content light>
       <nuxt /> 
+      <Accordian/>
     </v-content>
     
     <!-- Footer -->
@@ -33,5 +34,6 @@ export default {}
 
    #inspire {
     background-color: white;
+    color: black;
   }
 </style>

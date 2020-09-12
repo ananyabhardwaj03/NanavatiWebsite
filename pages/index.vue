@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-content>
-      It Worked!
+      It Worked! Welcome to Nanavati Hospital
     </v-content>
   </div>
 </template>
