@@ -1,8 +1,8 @@
 <template>
   <v-row justify="center">
     <v-expansion-panels accordion>
-      <v-expansion-panel
-        v-for="(item,i) in 5"
+      <v-expansion-panel 
+        v-for="(itemi) in 5"
         :key="i"
       >
         <v-expansion-panel-header>Item</v-expansion-panel-header>
