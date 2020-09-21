@@ -1,15 +1,17 @@
 <template>
-<!-- The logo of Nanavati Hospital in the header -->
+
+<!-- Image of patient 1 in patient stories -->
+
 
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
-    src="nvlogo.jpg"
+    src="wa.jpg"
   >
 </template>
 
 <style>
-.VuetifyLogo {
+.wa {
   height: 80px;
   width: 150px;
 }

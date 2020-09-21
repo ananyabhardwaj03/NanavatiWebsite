@@ -1,9 +1,0 @@
-<template>
-  <div>
-    <v-content>
-      <v-container>
-        <forms/>
-      </v-container>
-    </v-content>
-  </div>
-</template>
