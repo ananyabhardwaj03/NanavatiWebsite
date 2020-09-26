@@ -12,7 +12,7 @@
 
 <style>
 .wa {
-  height: 80px;
+  height: 180px;
   width: 150px;
 }
 </style>

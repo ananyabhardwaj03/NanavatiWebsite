@@ -12,7 +12,7 @@
 
 <style>
 .wwp {
-  height: 170px;
-  width: 150px;
+  height: 160px;
+  width: 130px;
 }
 </style>

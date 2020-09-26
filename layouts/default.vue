@@ -2,8 +2,9 @@
   <!--Your App Starts Here -->
   <v-app id="inspire">
     
-    <Header/>
-    <!--Header -->
+    
+    <!-- -->
+    <Header/>  
    <nvlogo/>
 
     <!-- Body -->
@@ -11,8 +12,8 @@
       <nuxt /> 
     </v-content>
     
-    <!-- Footer -->   
-    <Footer/>
+    <!--  -->   
+    <Footer/>    
 
   </v-app>
 </template>

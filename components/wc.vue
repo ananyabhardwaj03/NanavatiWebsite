@@ -9,9 +9,8 @@
   >
 </template>
 
-<style>
-.wc {
-  height: 150px;
-  width: 140px;
+<style> {
+  height: 120px;
+  width: 90px;
 }
 </style>

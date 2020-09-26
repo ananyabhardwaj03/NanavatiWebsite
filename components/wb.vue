@@ -9,7 +9,7 @@
 </template>
 
 <style>
-.wb {
+.wa {
   height: 80px;
   width: 150px;
 }
