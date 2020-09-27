@@ -28,7 +28,18 @@
          <v-expansion-panel-header-text color="grey darken-4"><h3>Tests Included </h3> </v-expansion-panel-header-text></v-expansion-panel-header>
         <v-expansion-panel-content color ="grey lighten-5"> 
         <!-- Due to a there being a long list of tests, heading styles and line changes were used to distinguish between the different tests -->
-       <prelim/> <diab/> <renal/> <liver/> <card/> <radio/> <spec/> <consul/>
+       <v-cols
+       cols="12"
+       sm="6"
+       md="10"
+       >
+       <v-row>
+       <prelim/> <diab/> <renal/> <liver/>
+       </v-row>
+       <v-row>
+        <card/> <radio/> <spec/> <consul/>
+        </v-row>
+        </v-cols>
 
         </v-expansion-panel-content>
       </v-expansion-panel>

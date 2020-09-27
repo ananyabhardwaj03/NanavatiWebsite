@@ -31,7 +31,16 @@
         <Accordiontestpic/>
         <Accordiondoc/>
         <Accordionpatient/>
+
+        <v-col
+        justify="right"
+        cols="12"
+        sm="8"
+        md="10">
         <Button/>
+        </v-col>
+
+
       </v-container>
     </v-content>
   </div>

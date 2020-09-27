@@ -28,7 +28,7 @@
         <!-- The patient stories section has the pictures, basic information and the comments of the users -->
         <v-expansion-panel-header color ="grey lighten-5"><h3>Patient Stories</h3></v-expansion-panel-header>
         <v-expansion-panel-content color ="grey lighten-5">
-          <p><wa/><h4>Reena Tiwari, 49</h4></p>
+          <p class="mt-15"><wa/><h4>Reena Tiwari, 49</h4></p>
           <p>"I am a very busy person, and I usually end up avoiding taking care of my health because I can't spare any extra time on that. But Nanavati's Health Packages were a gift and I was able to look after myself and in 
 a very convenient and comfortable manner."</P>
 <p><wb/><h4>Mirali Dixit, 38</h4></p>

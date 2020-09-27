@@ -7,15 +7,44 @@
       prominent
     >
 <!-- At first the search bar was leaving the screen but after adding the 'pt-5' class it came down the screen and was finally visible -->
-  <VuetifyLogo/>
+ <VuetifyLogo/>
 
     <template class="ps-16">
-  <v-cols cols="12"> <v-btn  class="md-8"  tile color="#711843" > 
-  <strong class="white--text ">Book an Appointment</strong></v-btn></v-cols> 
-  <v-cols cols="12"> <v-btn  class="md-8"  tile color="#711843" > 
-  <strong class="white--text ">Log In</strong></v-btn></v-cols> 
-  <v-cols cols="12"> <v-btn  class="md-8"  tile color="#711843" > 
-  <strong class="white--text ">Register</strong></v-btn></v-cols> 
+  <v-cols 
+  cols="12"
+  md="8"
+  sm="4"
+  xs="2"
+  > 
+  <v-btn  class="md-8 sm-2 xs-2"  tile color="#711843" > 
+  <strong class="white--text ">Book an Appointment</strong>
+  </v-btn>
+  </v-cols> 
+
+
+  <v-cols 
+  cols="12"
+   md="8"
+  sm="4"
+  xs="2"
+  > 
+  <v-btn  class="md-8 sm-2 xs-2"  tile color="#711843" > 
+  <strong class="white--text ">Log In</strong>
+  </v-btn>
+  </v-cols> 
+
+
+  <v-cols 
+  cols="12"
+   md="8"
+  sm="4"
+  xs="2"
+  > 
+  <v-btn  class="md-8 sm-2 xs-2"  tile color="#711843" > 
+  <strong class="white--text ">Register</strong>
+  </v-btn>
+  </v-cols> 
+
       </template>
 
 <!-- The search bar did not have the icon at first but after adding the 'append-icon' and mdi-magnify icon it looked more like a search bar -->
