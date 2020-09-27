@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-toolbar
-      color="pink darken-4"
+      color="#711843"
       dark
       flat
       prominent

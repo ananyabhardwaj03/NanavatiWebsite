@@ -2,15 +2,14 @@
 <!-- Image of patient 2 in patient stories -->
 
   <img
-    class="VuetifyLogo"
-    alt="Vuetify Logo"
+    class="wb"
+    alt="wb"
     src="wb.jpg"
   >
 </template>
 
-<style>
-.wa {
-  height: 80px;
-  width: 150px;
+<style> {
+  height: 130px;
+  width: 1300px;
 }
 </style>

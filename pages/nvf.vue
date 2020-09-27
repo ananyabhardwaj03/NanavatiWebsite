@@ -2,7 +2,7 @@
   <div>
     <v-content>
     <!-- Breadcrumbs -->
-      Home > Specialty Health Packages > Women's Health Package
+      <Breadcrumbs/>
       <v-container>
         <v-row justify="Left-aligned">
         
@@ -28,7 +28,7 @@
 
     
         </v-row>
-        <Accordiontest/>
+        <Accordiontestpic/>
         <Accordiondoc/>
         <Accordionpatient/>
         <Button/>

@@ -4,15 +4,14 @@
 
 
   <img
-    class="VuetifyLogo"
-    alt="Vuetify Logo"
+    class="wa"
+    alt="wa"
     src="wa.jpg"
   >
 </template>
 
-<style>
-.wa {
-  height: 180px;
-  width: 150px;
+<style> {
+  height: 130px;
+  width: 130px;
 }
 </style>
