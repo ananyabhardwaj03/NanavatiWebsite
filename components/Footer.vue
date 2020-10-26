@@ -1,68 +1,151 @@
 <template>
-  <v-footer
-    dark
+  <v-footer 
+  dark
     padless
     max-width="1980"
+    class="grey darken-2 white--text text-left"
   >
-  <!-- The footer has to cover the whole page, at first it was only occupying a section of the screen but then after 
-  making changes is the max-width as well as adding more text it finally fit the width of the screen -->
-    <v-card
-      flat
-      tile
-      class="grey darken-1 white--text text-center"
-    >
-    <v-card-text class="white--text pt-5">
-        Connect With Us
-<v-btn
+
+<!-- For this assignment, I had to work on my footer and to make it look more structured and similar to proper websites -->
+
+  <v-container>
+
+  <!-- In the Footer, I have 4 different columns, for 4 different headings -->
+
+  <!-- The one and only row in the Footer starts here  -->
+  <v-row>
+
+  <!-- Column 1 starts here -->
+  <v-col
+  cols="12"
+  sm="3"
+  md="3"
+  >
+  
+<!-- In the first column I have Social media links for the users to get in touch with the website -->
+
+  <v-spacer> </v-spacer>
+  <H3> Connect With Us </h3>
+   <v-divider></v-divider>
+    <br>
+
+    <!-- buttons of the different social media websites -->
+      <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-4 white--text"
+          class="mx-2 white--text"
           icon
         >
           <v-icon size="24px">{{ icon }}</v-icon>
         </v-btn>
-      </v-card-text>
-<!-- At first the text was all fitting in one line and not in different paragraphs/sections but after playing around I then made different
-cards and added heading levels, as well as dividers to be able to differentiate between the sections -->
-      <v-card-text>
-        <h3>About Us:</h3>
-       <h4> About Nanavati Hospital      Community Services      Leadership      Newsroom      Awards      Sitemap      Privacy Policy      Terms of Use      Blogs</h4>
-      </v-card-text>
 
+        </v-col>
+        <!-- Column 1 Ends Here -->
+
+<!-- Column 2 Starts Here -->
+        <v-col
+        cols="12"
+  sm="3"
+  md="3"
+  >
+  <v-spacer> </v-spacer>
+    <H3> About Us </h3>
+   <v-divider></v-divider>
+        <br>
+
+
+   <!-- 'v-spacers' are used here to align leave space wherever it is necessary -->
+  <h4> 
+          <font class="font-weight-regular">
+  About Nanavati Hospital <v-spacer> </v-spacer>
+  Community Services <v-spacer> </v-spacer>
+  Leadership  <v-spacer> </v-spacer>
+  Newsroom  <v-spacer> </v-spacer>
+  Awards   <v-spacer> </v-spacer>
+  Sitemap  <v-spacer> </v-spacer>
+  Privacy Policy <v-spacer> </v-spacer>
+  Terms of Use  <v-spacer> </v-spacer>
+  Blogs
+
+   </font>
+  </h4>
+ 
+   </v-col>
+   <!-- Column 2 Ends Here -->
+
+
+<!-- Column 3 Starts Here -->
+ <v-col
+        cols="12"
+  sm="3"
+  md="3"
+  >
+  <v-spacer> </v-spacer>
+  <h3> Quick Links </h3>
      <v-divider></v-divider>
+        <br>
+        
+<h4>
+<font class="font-weight-regular">
 
-       <v-card-text>
-      <h3>Quick Links:</h3>
-      <h4>Patient Portal
-STENT Pricing
-TKR Implant Pricing
-OPD Schedule
-Transplant Data</h4>
-      </v-card-text>
+Patient Portal <v-spacer> </v-spacer>
+STENT Pricing <v-spacer> </v-spacer>
+TKR Implant Pricing <v-spacer> </v-spacer>
+OPD Schedule <v-spacer> </v-spacer>
+Transplant Data
 
+</font>
+</h4>
+
+</v-col>
+<!-- Column 3 Ends Here -->
+
+<!-- Column 4 Start Here -->
+<v-col
+        cols="12"
+  sm="3"
+  md="3"
+  >
+  <v-spacer> </v-spacer>
+  <h3> Stay In Touch </h3>
      <v-divider></v-divider>
+        <br>
+<h4>
+<font class="font-weight-regular">
+Dr. Balabhai Nanavati Hospital, <v-spacer> </v-spacer>
+S.V. Road, Vile Parle (West), <v-spacer> </v-spacer>
+Mumbai 400 056, India. <br> <br>
 
-<!-- Different cards  have different types of information -->
 
-      <v-card-text class="white--text pt-5">
-       <h3>Stay in Touch</h3>
-       Dr. Balabhai Nanavati Hospital, 
-S.V. Road, Vile Parle (West), 
-Mumbai 400 056, India.
-Tel:+91 22 6836 0000
-24 Hrs helpline: +91 22 2626 7500
-Email:marketing@nanavatihospital.org
-Managed By: Radiant (Life Car Private Limited)
-NABH and NABL Accredited
-      </v-card-text>
+Tel: +91 22 6836 0000 <v-spacer> </v-spacer>
+Helpline: +91 22 2626 7500 <br> <br> 
 
-      <v-divider></v-divider>
 
-      <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Nanavati Specialty Hospital</strong>
-      </v-card-text>
-    </v-card>
+Email:marketing@nanavatihospital.org  </font> <br> <br>
+
+<!-- This column has images as well so they are added here, like this -->
+<img
+    class="Radiant"
+    alt="Radiant"
+    src="Radiant.png"
+  > 
+<img
+    class="Nabh"
+    alt="Nabh"
+    src="Nabh.png"
+  > 
+</h4>
+
+        </v-col>
+        <!-- Column 4 Ends Here -->
+
+        </v-row>
+        <!-- The Row Ends Here -->
+        </v-container>
+
+  
   </v-footer>
+  <!-- The Footer Component Ends Here -->
 </template>
 
 <script>

@@ -1,5 +1,8 @@
 <template>
-  <v-container fluid class="ml-10">
+
+<!-- Here we have the 'Book Now' button. For this Assignment, I had to shift the button to the left side of the screen, which I was 
+able to accomplish by adding cols and rows on the 'nvf' page itself -->
+  <v-container fluid class="pa-0">
     <v-row align="center">
       <v-col cols="12" sm="6">
         <div class="text-center">
