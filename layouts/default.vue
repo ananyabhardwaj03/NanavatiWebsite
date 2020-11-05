@@ -4,7 +4,7 @@
     
     
     <!-- Here we have the Header -->
-    <Headere/>  
+    <Header/>  
 
 
     <p  class="mt-3 pl-3"> 
