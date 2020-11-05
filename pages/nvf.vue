@@ -12,8 +12,6 @@
 
 <!-- Here we have the Women's Health Package Log0 (Illustrated Lady) -->
          <img
-    class="wwp"
-    alt="wwp"
     src="wwp.jpg"
   > 
 

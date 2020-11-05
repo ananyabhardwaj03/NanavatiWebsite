@@ -4,8 +4,8 @@
 <!-- My old header component was not up to par, so here I made a new footer component to work on -->
 
     <v-toolbar
-      color="#711843"
-      dark
+      color="#f0f0f0"
+      light
       flat
     >
 
@@ -52,16 +52,16 @@ md=3>
 
             <v-btn
               small
-              color="#711843"
-              dark
+              color="#f0f0f0"
+              light
             >
               Log In
             </v-btn>
            
             <v-btn
               small
-              color="#711843"
-              dark
+              color="#f0f0f0"
+              light
             >
               Register
             </v-btn>
@@ -94,8 +94,11 @@ but after adding the columns, margins, paddings, it shrunk and fir the website b
       <!-- Row 1 Ends Here -->
 
 
-<!-- I do not fully grasp the function of slot:extension, though I have used it in my code -->
-      <template v-slot:extension>
+<!-- v-slot-extension is used to bind the upper and lower halves of my header -->
+      <template v-slot:extension
+      color="#711843"
+      light
+      flat>
 
 <!-- The Second Row of my website is divided into 2 columns, the first one doesn't have any data and was made mainly for the column 2
 data, as it fits better, and on the right side of the page in the second column-->
@@ -121,22 +124,24 @@ md=5>
 <!-- This col has 3 Buttons that can be found on the Header -->
                <div class="my-2">
             <v-btn
-              color="#711843"
-              dark
+              color="#f0f0f0"
+              light
+              flat
+              hide-details
             >
               International Patients
             </v-btn>
 
             <v-btn
-              color="#711843"
-              dark
+              color="#f0f0f0"
+              light
             >
               Doctors
             </v-btn>
 
             <v-btn
-              color="#711843"
-              dark
+              color="#f0f0f0"
+              light
             >
               Outstation OPD
             </v-btn>
